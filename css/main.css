@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    font-size: 1em;
+}
+
+.page {
+    position: block;
+    min-height: 100%;
+    padding: auto 10px;
+    background-color: #2C2F33;
+}
+
+.page-container {
+    position: block;
+    min-height: 100%;
+}
+
+.profile-container {
+    max-width: 600px;
+    background-color: #23272A;
+    border-bottom: 1px solid #2C2F33;
+}
+
+.header-photo {
+    position: relative;
+}
+
+.header-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile {
+    margin: 0;
+    padding: 20px;
+    display: block;
+    position: relative;
+}
+
+.prof-pic-and-buttons-row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.prof-pic {
+    position: relative;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    margin: -65px 0;
+    border: 3.5px solid #23272A;
+    border-radius: 50%;
+}
+
+.prof-pic img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    inset: 0;
+}
+
+.buttons {
+    display: flex;
+    font-size: 0.75em;
+}
+
+.button {
+    display: block;
+}
+
+.button a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button .follow {
+    background-color: #808080;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.button .message {
+    background-color: #3cb371;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
+
+.button a div {
+    margin-top: -4px;
+}
+
+.button a .more {
+    font-weight: 600;
+    font-size: 1.5em;
+    height: 27px;
+    color: #808080;
+}
+
+.name {
+    display: flex;
+}
+
+.name .verifiedIcon {
+    padding: 3px 0 0 7px;
+    display: inline-flex;
+}
+
+.hashtagNumber {
+    font-size: 14px;
+    color: #808080;
+}
+
+.nav-bar-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0 20px 20px 20px;
+    clear: both;
+    background-color: #23272A;
+}
+
+.nav-bar-bottom a {
+    display: inline-flex;
+    margin: auto;
+}
+
+.nav-bar-bottom a img {
+    display: block;
+    padding: 10px;
+}
