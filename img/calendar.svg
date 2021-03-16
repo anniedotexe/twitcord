@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<svg height="1em" version="1.1" viewBox="0 0 18 20"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title/>
+    <desc/>
+    <defs/>
+    <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+        <g fill="#000000" id="Core" transform="translate(-339.000000, -464.000000)">
+            <g id="today" transform="translate(339.000000, 464.000000)">
+                <path d="M16,2 L15,2 L15,0 L13,0 L13,2 L5,2 L5,0 L3,0 L3,2 L2,2 C0.9,2 0,2.9 0,4 L0,18 C0,19.1 0.9,20 2,20 L16,20 C17.1,20 18,19.1 18,18 L18,4 C18,2.9 17.1,2 16,2 L16,2 Z M16,18 L2,18 L2,7 L16,7 L16,18 L16,18 Z" id="Shape" fill="#808080"/>
+                <rect height="5" id="Rectangle-path" width="5" x="4" y="9" fill="#808080"/>
+            </g>
+        </g>
+    </g>
+</svg>

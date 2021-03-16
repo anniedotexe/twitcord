@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<svg height="1em" id="Layer_1" version="1.1" viewBox="0 0 512 512"  xml:space="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs12"/>
+    <g id="g3508">
+        <rect height="512" id="rect2987" rx="64" ry="64" style="fill:#00abf1;fill-opacity:1;fill-rule:nonzero;stroke:none" width="512" x="0" y="0"/>
+        <path d="m 136.45307,373.778 c -8.24,0 -14.93773,-6.72447 -14.93773,-14.98671 V 236.72885 l -65.515728,-0.0311 89.017988,-97.44018 89.05347,97.47128 h -65.60454 v 89.9335 h 70.44454 L 285.0712,373.778 H 136.45307 z M 456.00039,275.3067 H 390.46253 V 153.20869 c 0,-8.26223 -6.70227,-14.98669 -14.93786,-14.98669 H 226.93772 l 46.12896,47.11564 h 70.43571 v 89.9335 l -65.56452,0.0356 89.04453,97.45352 89.01799,-97.45352 z" id="Retweet" style="fill:#ffffff;fill-opacity:1"/>
+    </g>
+</svg>
