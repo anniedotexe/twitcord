@@ -62,14 +62,13 @@ a {
 .prof-pic {
     position: relative;
     overflow: hidden;
-    width: 80px;
-    height: 80px;
-    margin: -65px 0;
-    border: 3.5px solid #23272A;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: -57px 0;
 }
 
 .prof-pic img {
+    cursor: pointer;
     display: inline;
     margin: 0 auto;
     height: 100%;
@@ -83,6 +82,7 @@ a {
 }
 
 .button {
+    cursor: pointer;
     display: block;
 }
 
@@ -128,6 +128,8 @@ a {
     display: inline-block;
     font-size: 1.2em;
     margin-right: 5px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 }
 
 .username img {
@@ -141,6 +143,10 @@ a {
     color: #808080;
 }
 
+.badges {
+    margin: 10px 0 0 0;
+}
+
 .bio {
     margin: 10px auto;
 }
@@ -149,7 +155,7 @@ a {
     color: #dadada;
 }
 
-.location-link-joined {
+.location-link-bday-joined {
     margin: 10px auto;
     position: relative;
     display: flex;
@@ -158,27 +164,30 @@ a {
     justify-content: flex-start;
 }
 
-.location-link-joined div {
+.location-link-bday-joined div {
     display: inline-block;
     position: relative;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
-.location-link-joined div span {
+.location-link-bday-joined div span {
     display: inline-block;
     font-size: 13px;
     color: #808080;
 }
 
-.location-link-joined div img {
-    margin-right: 5px;
+.location-link-bday-joined div img {
+    margin-right: 2px;
     vertical-align: text-bottom;
+}
+
+.location {
+    cursor: pointer;
 }
 
 .following-follower {
     position: relative;
     display: flex;
-    margin: 10px 0;
 }
 
 .following-follower div {
@@ -209,13 +218,26 @@ a {
 }
 
 .profile-tweets-nav .nav-tab {
+    cursor: pointer;
     display: block;
     padding: 20px 0;
 }
 
+.nav-tab .tab-title {
+    color: #dadada;
+}
+
+.active {
+    border-bottom: 2px solid #7289DA;
+}
+
+.active .tab-title {
+    color: #7289DA;
+}
+
 .profile-tweets-container {
     max-width: 600px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     /* add margin because of the bottom nav bar */
     display: block;
     position: relative;
@@ -231,10 +253,11 @@ a {
     align-items: stretch;
     overflow: hidden;
     padding: 20px;
-    border-bottom: 2px solid #23272A;
+    border-bottom: 1px solid #808080;
 }
 
 .tweet-profile-pic {
+    cursor: pointer;
     position: absolute;
     display: inline-block;
     overflow: hidden;
@@ -263,6 +286,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 5px;
 }
 
 .tweet-name-time span {
@@ -272,19 +296,29 @@ a {
     margin-right: 5px;
 }
 
-.tweet-name-time .name {
+.name {
     font-weight: 600;
     letter-spacing: 0.05em;
 }
 
-.tweet-name-time .hashtag, .separator, .date-sent {
+.hashtag, .separator, .date-sent {
     color: #808080;
 }
 
 .tweet-text {
     position: relative;
     display: block;
-    margin: 10px 0;
+    margin-bottom: 10px;
+}
+
+.tweet-pic {
+    margin-bottom: 10px;
+}
+
+.tweet-pic img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
 }
 
 .tweet-interact {
@@ -295,13 +329,22 @@ a {
 }
 
 .interaction {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 2px 5px;
     margin-right: 10px;
     border-radius: 5px;
-    background-color: #4b4b4b;
+    background-color: #4b4b4b8e;
+}
+
+.clicked {
+    background-color: #7289da4b;
+}
+
+.clicked .interact-number {
+    color: #7289da;
 }
 
 .interaction img {
@@ -316,6 +359,37 @@ a {
     color: #dadada;
 }
 
+.quote-tweet {
+    position: relative;
+    margin: 10px 0;
+}
+
+.quote-tweet-content {
+    position: relative;
+    border-radius: 15px;
+    border: 1px solid #4b4b4b;
+    padding: 10px;
+}
+
+.quote-prof-pic-tweet-name-time {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.quote-prof-pic-tweet-name-time img {
+    height: 1.5em;
+    margin-right: 5px;
+}
+
+.quote-prof-pic-tweet-name-time span {
+    position: relative;
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
 .nav-bar-bottom {
     display: flex;
     flex-direction: row;
@@ -323,8 +397,8 @@ a {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 70px;
-    padding: 0 20px 20px 20px;
+    height: 50px;
+    padding: 0 10px;
     clear: both;
     background-color: #23272A;
 }
