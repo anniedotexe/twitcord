@@ -376,6 +376,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-bottom: 5px;
 }
 
 .quote-prof-pic-tweet-name-time img {
