@@ -2,12 +2,12 @@
 
 #### A Twitter clone but if Twitter was owned by Discord
 
-_Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxjoe1/if_twitter_were_owned_by_discord/)._
-
 **LIVE DEMO** - [twitcord.anniew.xyz](https://twitcord.anniew.xyz/) OR [anniewu2303.github.io/twitcord](https://anniewu2303.github.io/twitcord/)
 
+_Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxjoe1/if_twitter_were_owned_by_discord/)._
+
 <p align="center">
-        <a href="https://www.w3schools.com/html/"> 
+      <a href="https://www.w3schools.com/html/"> 
         <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
     </a>
     <a href="https://www.w3schools.com/css/"> 
@@ -16,6 +16,10 @@ _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxj
     <a href="https://www.w3schools.com/js/DEFAULT.asp"> 
         <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=white"/>
     </a>
+</p>
+
+<p align="center">
+    <img alt="Mobile Demo Screenshot" src="./img/screenshot.png" width="400px">
 </p>
 
 ---
