@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Annie Wu">
-    <meta name="description" content="Twitter clone but if Twitter was owned by Discord">
+    <meta name="description" content="Twitter clone, but if Twitter was owned by Discord">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -51,8 +51,9 @@
                         <img src="./img/discord-badges.svg" alt="Discord Badges">
                     </div>
                     <div class="bio">
-                        <span>Your place to talk. Discord is a voice, video and text communication service to talk and hang out with your friends and
-                        communities.</span>
+                        <span>Your place to talk. Discord is a voice, video and text communication service to talk and
+                            hang out with your friends and
+                            communities.</span>
                     </div>
                     <div class="location-link-bday-joined">
                         <div class="location">
@@ -74,7 +75,7 @@
                     </div>
                     <div class="following-follower">
                         <div>
-                            <span class="follow-number">1,067</span>
+                            <span class="follow-number">1,066</span>
                             <span class="follow-text">Following</span>
                         </div>
                         <div>
@@ -83,36 +84,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="profile-tweets-nav">
-                    <div class="nav-tab active">
-                        <a href="#">
-                            <span class="tab-title">Tweets</span>
-                        </a>
-                    </div>
-                    <div class="nav-tab">
-                        <a href="#">
-                            <span class="tab-title">Tweets & Replies</span>
-                        </a>
-                    </div>
-                    <div class="nav-tab">
-                        <a href="#">
-                            <span class="tab-title">Media</span>
-                        </a>
-                    </div>
-                    <div class="nav-tab">
-                        <a href="#">
-                            <span class="tab-title">Likes</span>
-                        </a>
-                    </div>
+                <div class="profile-tweets-tabs">
+                    <a href="javascript:changeTab('tb1', 'Tweets');" id="tb1" class="tab-button active">Tweets</a>
+                    <a href="javascript:changeTab('tb2', 'Replies');" id="tb2" class="tab-button">Tweets & Replies</a>
+                    <a href="javascript:changeTab('tb3', 'Media');" id="tb3" class="tab-button">Media</a>
+                    <a href="javascript:changeTab('tb4', 'Likes');" id="tb4" class="tab-button">Likes</a>
                 </div>
             </div>
-            <div class="profile-tweets-container">
+            <div id="Tweets" class="tab-content">
                 <div class="tweet">
                     <div class="tweet-profile-pic">
                         <img src="./img/discord-icon.svg" alt="Profile Picture">
                     </div>
                     <div class="tweet-content">
-                        <div class="tweet-name-time">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>cannot believe they're making me post again</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">1.3K</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number">1K</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">50.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
                             <span class="name">Discord</span>
                             <span class="hashtag">#0000</span>
                             <span class="separator">•</span>
@@ -124,15 +139,15 @@
                         <div class="tweet-interact">
                             <div class="interaction">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1.2K</span>
+                                <span class="interact-number">1.3K</span>
                             </div>
                             <div class="interaction">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">1.9K</span>
+                                <span class="interact-number">2.1K</span>
                             </div>
                             <div class="interaction clicked">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">48.2K</span>
+                                <span class="interact-number">51.7K</span>
                             </div>
                         </div>
                     </div>
@@ -142,7 +157,7 @@
                         <img src="./img/discord-icon.svg" alt="Profile Picture">
                     </div>
                     <div class="tweet-content">
-                        <div class="tweet-name-time">
+                        <div class="tweeter-info">
                             <span class="name">Discord</span>
                             <span class="hashtag">#0000</span>
                             <span class="separator">•</span>
@@ -158,7 +173,7 @@
                             </p>
                         </div>
                         <div class="tweet-pic">
-                            <img src="./img/tweet-pic.jpg" alt="Picture in the Tweet">
+                            <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
                         </div>
                         <div class="tweet-interact">
                             <div class="interaction">
@@ -167,11 +182,11 @@
                             </div>
                             <div class="interaction clicked">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">398</span>
+                                <span class="interact-number">397</span>
                             </div>
                             <div class="interaction clicked">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">3.8K</span>
+                                <span class="interact-number">3.9K</span>
                             </div>
                         </div>
                     </div>
@@ -181,7 +196,7 @@
                         <img src="./img/discord-icon.svg" alt="Profile Picture">
                     </div>
                     <div class="tweet-content">
-                        <div class="tweet-name-time">
+                        <div class="tweeter-info">
                             <span class="name">Discord</span>
                             <span class="hashtag">#0000</span>
                             <span class="separator">•</span>
@@ -192,8 +207,8 @@
                         </div>
                         <div class="quote-tweet">
                             <div class="quote-tweet-content">
-                                <div class="quote-prof-pic-tweet-name-time">
-                                    <img src="./img/discord-icon-2.svg" alt="Profile Picture">
+                                <div class="quote-prof-pic-tweeter-info">
+                                    <img src="./img/discord-icon-orange.svg" alt="Profile Picture">
                                     <span class="name">Dariath</span>
                                     <span class="hashtag">#4200</span>
                                     <span class="separator">•</span>
@@ -210,7 +225,7 @@
                         <div class="tweet-interact">
                             <div class="interaction">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">432</span>
+                                <span class="interact-number">433</span>
                             </div>
                             <div class="interaction">
                                 <img src="./img/retweet.svg" alt="Retweet">
@@ -218,7 +233,517 @@
                             </div>
                             <div class="interaction">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">15.7K</span>
+                                <span class="interact-number">15.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Replies" class="tab-content" style="display:none;">
+                <div class="tweet reply">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon-green.svg" alt="Profile Picture">
+                        </div>
+                        <div class="replying-icon-line"></div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">icageforme</span>
+                            <span class="hashtag">#2510</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="replying-to"><a href="">@Discord#0000</a></div>
+                        <div class="tweet-text">
+                            <p>Tell Wumpus I said hi 👋</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction clicked">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">1</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>okie 👋</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">24</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet reply">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon-red.svg" alt="Profile Picture">
+                        </div>
+                        <div class="replying-icon-line"></div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Galeon Cmmnd</span>
+                            <span class="hashtag">#8313</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="replying-to"><a href="">@Discord#0000</a></div>
+                        <div class="tweet-text">
+                            <p>what's the meaning of existence</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction clicked">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">3</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number">1</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">744</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon.svg" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>Wumpus</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">14</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number">19</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">1.8K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet reply">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon-pink.svg" alt="Profile Picture">
+                        </div>
+                        <div class="replying-icon-line"></div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Grayé Beaan</span>
+                            <span class="hashtag">#3160</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="replying-to"><a href="">@Discord#0000</a></div>
+                        <div class="tweet-text">
+                            <p>Do it on a post it note, you technically posted it</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction clicked">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">1</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">37</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon.svg" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="tweet-pic">
+                            <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif"
+                                alt="Gif in the Tweet">
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">67</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet reply">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon-blue.svg" alt="Profile Picture">
+                        </div>
+                        <div class="replying-icon-line"></div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">peppermintmocah</span>
+                            <span class="hashtag">#1547</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="replying-to"><a href="">@Discord#0000</a></div>
+                        <div class="tweet-text">
+                            <p>i love you ever since 2 year ago ive been using this platform so much &lt;3 thank you</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction clicked">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">2</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">212</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon.svg" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>Thank you for all the love and support! It means so much to the entire team! ;w; 💜</p>
+                        </div>
+                        <div class="tweet-pic">
+                            <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif"
+                                alt="Gif in the Tweet">
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">3</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">368</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Media" class="tab-content" style="display:none;">
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon.svg" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="replying-to"><a href="">@Grayé Beaan#3160</a></div>
+                        <div class="tweet-pic">
+                            <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif"
+                                alt="Gif in the Tweet">
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">67</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon.svg" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 17</span>
+                        </div>
+                        <div class="replying-to"><a href="">@peppermintmocah#1547</a></div>
+                        <div class="tweet-text">
+                            <p>Thank you for all the love and support! It means so much to the entire team! ;w; 💜</p>
+                        </div>
+                        <div class="tweet-pic">
+                            <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif">
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">3</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">365</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <div class="profile-pic">
+                            <img src="./img/discord-icon.svg" alt="Profile Picture">
+                        </div>
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Discord</span>
+                            <span class="hashtag">#0000</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 16</span>
+                        </div>
+                        <div class="replying-to"><a href="">@Llennoux#3110</a></div>
+                        <div class="tweet-text">
+                            <p>Wishing you a good day too 😀</p>
+                        </div>
+                        <div class="tweet-pic">
+                            <img src="https://media.giphy.com/media/PQKlfexeEpnTq/source.gif" alt="Gif in the Tweet">
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">1</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Likes" class="tab-content" style="display:none;">
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <img src="./img/discord-icon-orange.svg" alt="Profile Picture">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">Assassin's Creed</span>
+                            <span class="hashtag">#1113</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Mar 9</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>In celebration of International Women's Day and Women's History Month, we're excited to
+                                contribute to the Discord x BCRF fundraiser with a Livestream this Thursday!
+                            </p>
+                        </div>
+                        <div class="quote-tweet">
+                            <div class="quote-tweet-content">
+                                <div class="quote-prof-pic-tweeter-info">
+                                    <img src="./img/discord-icon.svg" alt="Profile Picture">
+                                    <span class="name">Discord</span>
+                                    <span class="hashtag">#0000</span>
+                                    <span class="separator">•</span>
+                                    <span class="date-sent">Mar 5</span>
+                                </div>
+                                <div class="tweet-text">
+                                    <p>We're supporting breast cancer research for International Womens Day! There's
+                                        over a dozen Discord communities holding streams and events to support @BCRFcure
+                                        today through the 14th.</br></br>
+                                        (ง'̀-'́)ง We're matching up to 60k in donations, so join the cause:
+                                        http://dis.gd/iwd-events
+                                    </p>
+                                </div>
+                                <div class="quoted tweet-pic">
+                                    <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">7</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number">38</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">410</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <img src="./img/discord-icon-black.svg" alt="Profile Picture">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">CORPSE</span>
+                            <span class="hashtag">#0001</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Feb 18</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>we appreciate animators and artists so much</p>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">1.5K</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number">7.2K</span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">188.7K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet">
+                    <div class="tweet-profile-pic">
+                        <img src="./img/discord-icon-pink.svg" alt="Profile Picture">
+                    </div>
+                    <div class="tweet-content">
+                        <div class="tweeter-info">
+                            <span class="name">fiona + tran = fiona art</span>
+                            <span class="hashtag">#4948</span>
+                            <span class="separator">•</span>
+                            <span class="date-sent">Feb 1</span>
+                        </div>
+                        <div class="tweet-text">
+                            <p>probably the best thing I've made for work to date. </p>
+                        </div>
+                        <div class="quote-tweet">
+                            <div class="quote-tweet-content">
+                                <div class="quote-prof-pic-tweeter-info">
+                                    <img src="./img/discord-icon.svg" alt="Profile Picture">
+                                    <span class="name">Discord</span>
+                                    <span class="hashtag">#0000</span>
+                                    <span class="separator">•</span>
+                                    <span class="date-sent">Feb 1</span>
+                                </div>
+                                <div class="tweet-text">
+                                    <p>pain </p>
+                                </div>
+                                <div class="quoted tweet-pic">
+                                    <img src="./img/tweet-pic-pain.jpg" alt="Picture in the Tweet">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tweet-interact">
+                            <div class="interaction">
+                                <img src="./img/reply.svg" alt="Reply">
+                                <span class="interact-number">6</span>
+                            </div>
+                            <div class="interaction">
+                                <img src="./img/retweet.svg" alt="Retweet">
+                                <span class="interact-number"></span>
+                            </div>
+                            <div class="interaction clicked">
+                                <img src="./img/like.svg" alt="Like">
+                                <span class="interact-number">98</span>
                             </div>
                         </div>
                     </div>
@@ -228,35 +753,26 @@
 
             <footer class="nav-bar-bottom">
                 <a href="#">
-                    <div class="nav-icon">
-                        <img src="./img/discord-logo.svg" alt="Server">
-                    </div>
+                    <img src="./img/discord-logo.svg" alt="Server">
                 </a>
                 <a href="#">
-                    <div class="nav-icon">
-                        <img src="./img/discord-friends.svg" alt="Friends">
-                    </div>
+                    <img src="./img/discord-friends.svg" alt="Friends">
                 </a>
                 <a href="#">
-                    <div class="nav-icon">
-                        <img src="./img/discord-search.svg" alt="Search">
-                    </div>
+                    <img src="./img/discord-search.svg" alt="Search">
                 </a>
                 <a href="#">
-                    <div class="nav-icon">
-                        <img src="./img/discord-mentions.svg" alt="Mentions">
-                    </div>
+                    <img src="./img/discord-mentions.svg" alt="Mentions">
                 </a>
                 <a href="#">
-                    <div class="nav-icon">
-                        <img src="./img/discord-icon-with-status.svg" alt="Profile">
-                    </div>
+                    <img src="./img/discord-icon-with-status.svg" alt="Profile">
                 </a>
             </footer>
         </div>
-
     </div>
+
     <script src="./js/main.js"></script>
+
 </body>
 
 </html>

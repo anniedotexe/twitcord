@@ -17,26 +17,34 @@ a {
 }
 
 .page {
-    position: block;
-    min-height: 100%;
+    position: relative;
+    display: block;
+    min-height: 0;
+    min-width: 0;
     padding: auto 10px;
 }
 
 .page-container {
-    position: block;
-    min-height: 100%;
+    position: relative;
+    display: block;
+    min-height: 0;
+    min-width: 0;
 }
 
 .profile-top-container {
+    position: relative;
     max-width: 600px;
     background-color: #23272A;
 }
 
 .header-photo {
     position: relative;
+    display: block;
 }
 
 .header-photo img {
+    position: relative;
+    display: inline-block;
     max-width: 100%;
     height: auto;
 }
@@ -44,8 +52,8 @@ a {
 .profile {
     margin: 0;
     padding: 20px;
-    display: block;
     position: relative;
+    display: block;
     border-bottom: 2px solid #2C2F33;
 }
 
@@ -53,7 +61,6 @@ a {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5px;
@@ -61,6 +68,7 @@ a {
 
 .prof-pic {
     position: relative;
+    display: block;
     overflow: hidden;
     width: 70px;
     height: 70px;
@@ -68,22 +76,25 @@ a {
 }
 
 .prof-pic img {
-    cursor: pointer;
-    display: inline;
+    display: inline-block;
+    position: relative;
     margin: 0 auto;
     height: 100%;
     width: auto;
+    cursor: pointer;
     inset: 0;
 }
 
 .buttons {
+    position: relative;
     display: flex;
-    font-size: 0.75em;
+    font-size: 10.5px;
 }
 
 .button {
-    cursor: pointer;
+    position: relative;
     display: block;
+    cursor: pointer;
 }
 
 .button a {
@@ -112,12 +123,13 @@ a {
 
 .button a .more {
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 12px;
     height: 27px;
     color: #808080;
 }
 
 .username {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -125,60 +137,76 @@ a {
 }
 
 .username span {
+    position: relative;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 16px;
     margin-right: 5px;
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
 }
 
 .username img {
+    position: relative;
     display: inline-block;
     height: 100%;
     margin-top: 5px;
 }
 
 .hashtagNumber {
-    font-size: 1em;
+    position: relative;
+    font-size: 14px;
     color: #808080;
 }
 
 .badges {
-    margin: 10px 0 0 0;
+    position: relative;
+    display: block;
+    margin: 10px 0;
 }
 
 .bio {
-    margin: 10px auto;
+    position: relative;
+    display: block;
+    margin: 10px 0;
 }
 
 .bio span {
+    position: relative;
+    display: block;
     color: #dadada;
 }
 
 .location-link-bday-joined {
-    margin: 10px auto;
+    margin: 10px 0;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-basis: auto;
+    justify-content: start;
 }
 
 .location-link-bday-joined div {
-    display: inline-block;
     position: relative;
+    display: inline-block;
     margin-right: 15px;
 }
 
 .location-link-bday-joined div span {
+    position: relative;
     display: inline-block;
+    line-height: 18px;
     font-size: 13px;
     color: #808080;
 }
 
 .location-link-bday-joined div img {
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
     margin-right: 2px;
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
 
 .location {
@@ -188,14 +216,20 @@ a {
 .following-follower {
     position: relative;
     display: flex;
+    flex-direction: row;
+    margin-top: 10px;
 }
 
 .following-follower div {
+    position: relative;
+    display: block;
     margin-right: 20px;
     font-size: 12px;
 }
 
 .follow-number {
+    position: relative;
+    display: inline-flex;
     font-weight: 600;
     color: #dadada;
     background-color: #D7443E;
@@ -205,43 +239,50 @@ a {
 }
 
 .follow-text {
+    position: relative;
+    display: inline-flex;
     color: #dadada;
 }
 
-.profile-tweets-nav {
+.profile-tweets-tabs {
     padding: 0 20px;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 
-.profile-tweets-nav .nav-tab {
-    cursor: pointer;
+.profile-tweets-tabs .tab-button {
+    position: relative;
     display: block;
-    padding: 20px 0;
-}
-
-.nav-tab .tab-title {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
     color: #dadada;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px;
 }
 
-.active {
+.tab-button:hover {
+    background-color: #7289da7e;
+}
+
+.tab-button.active {
+    color: #7289DA;
     border-bottom: 2px solid #7289DA;
 }
 
-.active .tab-title {
-    color: #7289DA;
-}
-
-.profile-tweets-container {
+.tab-content {
+    position: relative;
+    display: block;
     max-width: 600px;
     margin-bottom: 50px;
     /* add margin because of the bottom nav bar */
-    display: block;
-    position: relative;
-    align-items: stretch;
     background-color: #2C2F33;
 }
 
@@ -253,43 +294,78 @@ a {
     align-items: stretch;
     overflow: hidden;
     padding: 20px;
-    border-bottom: 1px solid #808080;
+    border-bottom: 1.5px solid #23272A;
+}
+
+.tweet.reply {
+    position: relative;
+    display: block;
+    padding-bottom: 0;
+    border: 0;
 }
 
 .tweet-profile-pic {
     cursor: pointer;
     position: absolute;
-    display: inline-block;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
     overflow: hidden;
     width: 40px;
-    height: 40px;
-    margin-right: 15px;
+    height: 100%;
+}
+
+.tweet-profile-pic div {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    height: auto;
+    width: 100%;
 }
 
 .tweet-profile-pic img {
     position: absolute;
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 50%;
     inset: 0;
 }
 
+.tweet-profile-pic .replying-icon-line {
+    position: relative;
+    display: block;
+    align-items: stretch;
+    flex-grow: 1;
+    margin: 40px auto 0 auto;
+    width: 2px;
+    background-color: #808080;
+}
+
+.replying-to {
+    color: #808080;
+}
+
+.replying-to:before {
+    content: "Replying to ";
+}
+
 .tweet-content {
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: left;
     margin-left: 50px;
 }
 
-.tweet-name-time {
+.tweeter-info {
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-bottom: 5px;
 }
 
-.tweet-name-time span {
+.tweeter-info span {
     position: relative;
     display: inline-block;
     line-height: 20px;
@@ -298,7 +374,7 @@ a {
 
 .name {
     font-weight: 600;
-    letter-spacing: 0.05em;
+    letter-spacing: 1px;
 }
 
 .hashtag, .separator, .date-sent {
@@ -308,20 +384,29 @@ a {
 .tweet-text {
     position: relative;
     display: block;
-    margin-bottom: 10px;
+    margin: 10px 0;
+}
+
+.quoted.tweet-pic {
+    margin: 0;
 }
 
 .tweet-pic {
-    margin-bottom: 10px;
+    position: relative;
+    display: block;
+    margin: 10px 0;
 }
 
 .tweet-pic img {
+    position: relative;
+    display: block;
     border-radius: 15px;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .tweet-interact {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -333,7 +418,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 2px 5px;
+    padding: 2px 2px 2px 7px;
     margin-right: 10px;
     border-radius: 5px;
     background-color: #4b4b4b8e;
@@ -348,30 +433,46 @@ a {
 }
 
 .interaction img {
-    margin-right: 5px;
-    display: inline-block;
     position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
 }
 
 .interaction span {
+    position: relative;
     display: inline-block;
+    margin-right: 5px;
+    height: 18px;
     font-size: 13px;
     color: #dadada;
 }
 
 .quote-tweet {
     position: relative;
+    display: block;
     margin: 10px 0;
 }
 
 .quote-tweet-content {
     position: relative;
+    display: block;
     border-radius: 15px;
     border: 1px solid #4b4b4b;
     padding: 10px;
 }
 
-.quote-prof-pic-tweet-name-time {
+.quote-tweet-content img {
+    position: relative;
+    display: block;
+    border-radius: 15px;
+    border: 1px solid #4b4b4b;
+    padding: 0;
+}
+
+.quote-prof-pic-tweeter-info {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -379,14 +480,14 @@ a {
     margin-bottom: 5px;
 }
 
-.quote-prof-pic-tweet-name-time img {
-    height: 1.5em;
+.quote-prof-pic-tweeter-info img {
+    height: 20px;
     margin-right: 5px;
 }
 
-.quote-prof-pic-tweet-name-time span {
-    position: relative;
+.quote-prof-pic-tweeter-info span {
     display: inline-block;
+    position: relative;
     line-height: 20px;
     margin-right: 5px;
 }
@@ -397,20 +498,23 @@ a {
     justify-content: space-between;
     position: fixed;
     bottom: 0;
+    min-height: 0;
+    min-width: 0;
     max-width: 600px;
     width: 100%;
     height: 50px;
     padding: 0 10px;
-    clear: both;
     background-color: #23272A;
 }
 
 .nav-bar-bottom a {
-    display: inline-flex;
+    position: relative;
+    display: inline-block;
     margin: auto;
 }
 
 .nav-bar-bottom a img {
+    position: relative;
     display: block;
     padding: 10px;
 }
