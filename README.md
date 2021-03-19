@@ -4,7 +4,10 @@
 
 **LIVE DEMO** - [twitcord.anniew.xyz](https://twitcord.anniew.xyz/) OR [anniewu2303.github.io/twitcord](https://anniewu2303.github.io/twitcord/)
 
+Currently streaming my progress with this project on [Twitch](https://www.twitch.tv/anniedotexe).
+
 _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxjoe1/if_twitter_were_owned_by_discord/)._
+_[My reddit post](https://www.reddit.com/r/discordapp/comments/m6qzi5/re_if_twitter_were_owned_by_discord_but_i_made_it/?utm_source=share&utm_medium=web2x&context=3) about it._
 
 <p align="center">
       <a href="https://www.w3schools.com/html/"> 
