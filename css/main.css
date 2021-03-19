@@ -95,37 +95,32 @@ a {
     position: relative;
     display: block;
     cursor: pointer;
+    margin-right: 15px;
+    border-radius: 3px;
 }
 
-.button a {
+.follow {
     position: relative;
     display: inline-block;
     text-decoration: none;
-}
-
-.button .follow {
     background-color: #808080;
     padding: 5px 10px;
-    border-radius: 3px;
-    margin-right: 15px;
 }
 
-.button .message {
+.follow a {
+    color: #FFFFFF;
+}
+
+.message {
     background-color: #3cb371;
     padding: 5px 10px;
     border-radius: 3px;
     margin-right: 7px;
 }
 
-.button a div {
-    margin-top: -4px;
-}
-
-.button a .more {
-    font-weight: 600;
-    font-size: 12px;
-    height: 27px;
-    color: #808080;
+.more {
+    margin: 0;
+    padding-top: 4px;
 }
 
 .username {
@@ -198,6 +193,9 @@ a {
     line-height: 18px;
     font-size: 13px;
     color: #808080;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .location-link-bday-joined div img {
@@ -229,7 +227,7 @@ a {
 
 .follow-number {
     position: relative;
-    display: inline-flex;
+    display: inline-block;
     font-weight: 600;
     color: #dadada;
     background-color: #D7443E;
@@ -240,7 +238,10 @@ a {
 
 .follow-text {
     position: relative;
-    display: inline-flex;
+    display: inline-block;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     color: #dadada;
 }
 
@@ -266,10 +267,6 @@ a {
     font-weight: 600;
     letter-spacing: 0.5px;
     padding: 15px 5px;
-}
-
-.tab-button:hover {
-    background-color: #7289da7e;
 }
 
 .tab-button.active {
@@ -405,7 +402,7 @@ a {
     height: 100%;
 }
 
-.tweet-interact {
+.tweet-react {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -413,7 +410,7 @@ a {
     margin: 5px 0;
 }
 
-.interaction {
+.reaction {
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -428,11 +425,11 @@ a {
     background-color: #7289da4b;
 }
 
-.clicked .interact-number {
+.clicked .react-number {
     color: #7289da;
 }
 
-.interaction img {
+.reaction img {
     position: relative;
     display: inline-block;
     margin-right: 5px;
@@ -441,7 +438,7 @@ a {
     vertical-align: middle;
 }
 
-.interaction span {
+.reaction span {
     position: relative;
     display: inline-block;
     margin-right: 5px;

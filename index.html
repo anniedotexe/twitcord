@@ -27,18 +27,16 @@
                             <img src="./img/discord-icon-with-status-bordered.svg" alt="Profile Picture">
                         </div>
                         <div class="buttons">
-                            <div class="button">
-                                <span class="follow">Follow</span>
-                            </div>
-                            <div class="button">
-                                <span class="message">Send Message</span>
-                            </div>
-                            <div class="button">
-                                <a href="/">
-                                    <div>
-                                        <span class="more">&#xFE19;</span>
-                                    </div>
+                            <div class="button follow">
+                                <a href="javascript:clickFollow('buttonFollow')" class="" id="buttonFollow">
+                                    Follow
                                 </a>
+                            </div>
+                            <div class="button message">
+                                Send Message
+                            </div>
+                            <div class="button more">
+                                <img src="./img/more.svg" alt="Three Dots">
                             </div>
                         </div>
                     </div>
@@ -106,19 +104,19 @@
                         <div class="tweet-text">
                             <p>cannot believe they're making me post again</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply1')" class="reaction" id="reactReply1">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1.3K</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">1.3K</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet1')" class="reaction" id="reactRetweet1">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">1K</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">1K</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike1')" class="reaction" id="reactLike1">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">50.8K</span>
-                            </div>
+                                <span class="react-amount">50.8K</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -136,19 +134,19 @@
                         <div class="tweet-text">
                             <p>did we ever figure out why they did surgery on a grape</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply2')" class="reaction" id="reactReply2">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1.3K</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">1.3K</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet2')" class="reaction" id="reactRetweet2">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">2.1K</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">2.1K</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike2')" class="reaction" id="reactLike2">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">51.7K</span>
-                            </div>
+                                <span class="react-amount">51.7K</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -175,19 +173,19 @@
                         <div class="tweet-pic">
                             <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply3')" class="reaction" id="reactReply3">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">166</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">166</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet3')" class="reaction" id="reactRetweet3">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">397</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">397</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike3')" class="reaction" id="reactLike3">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">3.9K</span>
-                            </div>
+                                <span class="react-amount">3.9K</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -222,19 +220,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply4')" class="reaction" id="reactReply4">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">433</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">433</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet4')" class="reaction" id="reactRetweet4">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">438</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">438</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike4')" class="reaction" id="reactLike4">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">15.8K</span>
-                            </div>
+                                <span class="react-amount">15.8K</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -258,19 +256,19 @@
                         <div class="tweet-text">
                             <p>Tell Wumpus I said hi 👋</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction clicked">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply5')" class="reaction" id="reactReply5">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">1</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet5')" class="reaction" id="reactRetweet5">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike5')" class="reaction" id="reactLike5">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">9</span>
-                            </div>
+                                <span class="react-amount">9</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -288,19 +286,19 @@
                         <div class="tweet-text">
                             <p>okie 👋</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply6')" class="reaction" id="reactReply6">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet6')" class="reaction" id="reactRetweet6">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike6')" class="reaction" id="reactLike6">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">24</span>
-                            </div>
+                                <span class="react-amount">24</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -322,19 +320,19 @@
                         <div class="tweet-text">
                             <p>what's the meaning of existence</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction clicked">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply7')" class="reaction" id="reactReply7">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">3</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">3</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet7')" class="reaction" id="reactRetweet7">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">1</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">1</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike7')" class="reaction" id="reactLike7">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">744</span>
-                            </div>
+                                <span class="react-amount">744</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -354,19 +352,19 @@
                         <div class="tweet-text">
                             <p>Wumpus</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply8')" class="reaction" id="reactReply8">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">14</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">14</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet8')" class="reaction" id="reactRetweet8">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">19</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">19</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike8')" class="reaction" id="reactLike8">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">1.8K</span>
-                            </div>
+                                <span class="react-amount">1.8K</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -388,19 +386,19 @@
                         <div class="tweet-text">
                             <p>Do it on a post it note, you technically posted it</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction clicked">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply9')" class="reaction" id="reactReply9">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">1</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet9')" class="reaction" id="reactRetweet9">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike9')" class="reaction" id="reactLike9">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">37</span>
-                            </div>
+                                <span class="react-amount">37</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -421,19 +419,19 @@
                             <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif"
                                 alt="Gif in the Tweet">
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply10')" class="reaction" id="reactReply10">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet10')" class="reaction" id="reactRetweet10">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike10')" class="reaction" id="reactLike10">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">67</span>
-                            </div>
+                                <span class="react-amount">67</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -455,19 +453,19 @@
                         <div class="tweet-text">
                             <p>i love you ever since 2 year ago ive been using this platform so much &lt;3 thank you</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction clicked">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply11')" class="reaction" id="reactReply11">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">2</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">2</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet11')" class="reaction" id="reactRetweet11">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike11')" class="reaction" id="reactLike11">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">212</span>
-                            </div>
+                                <span class="react-amount">212</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -485,25 +483,26 @@
                             <span class="date-sent">Mar 17</span>
                         </div>
                         <div class="tweet-text">
-                            <p>Thank you for all the love and support! It means so much to the entire team! ;w; 💜</p>
+                            <p>Thank you for all the love and support! It means so much to the entire team! ;w;
+                                💜</p>
                         </div>
                         <div class="tweet-pic">
                             <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif"
                                 alt="Gif in the Tweet">
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply12')" class="reaction" id="reactReply12">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">3</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">3</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet12')" class="reaction" id="reactRetweet12">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike12')" class="reaction" id="reactLike12">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">368</span>
-                            </div>
+                                <span class="react-amount">368</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -527,19 +526,19 @@
                             <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif"
                                 alt="Gif in the Tweet">
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply13')" class="reaction" id="reactReply13">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet13')" class="reaction" id="reactRetweet13">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike13')" class="reaction" id="reactLike13">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">67</span>
-                            </div>
+                                <span class="react-amount">67</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -563,19 +562,19 @@
                         <div class="tweet-pic">
                             <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif">
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply14')" class="reaction" id="reactReply14">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">3</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">3</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet14')" class="reaction" id="reactRetweet14">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike14')" class="reaction" id="reactLike14">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">365</span>
-                            </div>
+                                <span class="react-amount">365</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -599,19 +598,19 @@
                         <div class="tweet-pic">
                             <img src="https://media.giphy.com/media/PQKlfexeEpnTq/source.gif" alt="Gif in the Tweet">
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply15')" class="reaction" id="reactReply15">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">1</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet15')" class="reaction" id="reactRetweet15">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike15')" class="reaction" id="reactLike15">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">1</span>
-                            </div>
+                                <span class="react-amount">1</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -655,19 +654,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply16')" class="reaction" id="reactReply16">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">7</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">7</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet16')" class="reaction" id="reactRetweet16">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">38</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">38</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike16')" class="reaction" id="reactLike16">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">410</span>
-                            </div>
+                                <span class="react-amount">410</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -685,19 +684,19 @@
                         <div class="tweet-text">
                             <p>we appreciate animators and artists so much</p>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply17')" class="reaction" id="reactReply17">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">1.5K</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">1.5K</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet17')" class="reaction" id="reactRetweet17">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number">7.2K</span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount">7.2K</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike17')" class="reaction" id="reactLike17">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">188.7K</span>
-                            </div>
+                                <span class="react-amount">188.7K</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -732,19 +731,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tweet-interact">
-                            <div class="interaction">
+                        <div class="tweet-react">
+                            <a href="javascript:clickReaction('reactReply18')" class="reaction" id="reactReply18">
                                 <img src="./img/reply.svg" alt="Reply">
-                                <span class="interact-number">6</span>
-                            </div>
-                            <div class="interaction">
+                                <span class="react-amount">6</span>
+                            </a>
+                            <a href="javascript:clickReaction('reactRetweet18')" class="reaction" id="reactRetweet18">
                                 <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="interact-number"></span>
-                            </div>
-                            <div class="interaction clicked">
+                                <span class="react-amount"></span>
+                            </a>
+                            <a href="javascript:clickReaction('reactLike18')" class="reaction" id="reactLike18">
                                 <img src="./img/like.svg" alt="Like">
-                                <span class="interact-number">98</span>
-                            </div>
+                                <span class="react-amount">98</span>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -10,11 +10,25 @@ function changeTab(tabID, tabName) {
     // Get all tab buttons and remove "active"
     tabButton = document.getElementsByClassName("tab-button");
     for (i = 0; i < tabButton.length; i++) {
-        tabButton[i].className = tabButton[i].className.replace(" active", "");
+        tabButton[i].classList.remove("active");
     }
 
     // Show current tab, add "active" to the button that opened the tab
     document.getElementById(tabName).style.display = "block";
-    document.getElementById(tabID).className = "tab-button active";
+    document.getElementById(tabID).classList.add("active");
 }
 
+function clickReaction(reactID) {
+    document.getElementById(reactID).classList.toggle("clicked");
+}
+
+function clickFollow(buttonID) {
+    document.getElementById(buttonID).innerHTML = "Unfollow";
+    if (document.getElementById(buttonID).classList.contains("clicked")) {
+        document.getElementById(buttonID).innerHTML = "Follow";
+    }
+    else {
+        document.getElementById(buttonID).innerHTML = "Unfollow";
+    }
+    document.getElementById(buttonID).classList.toggle("clicked")
+}
