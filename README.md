@@ -2,7 +2,7 @@
 
 #### A Twitter clone but if Twitter was owned by Discord
 
-**LIVE DEMO** - [twitcord.anniew.xyz](https://twitcord.anniew.xyz/) OR [anniewu2303.github.io/twitcord](https://anniewu2303.github.io/twitcord/)
+**LIVE DEMO** - [twitcord.anniew.xyz](https://twitcord.anniew.xyz/) OR [twitcord.netlify.app](https://twitcord.netlify.app)
 
 Currently streaming my progress with this project on [Twitch](https://www.twitch.tv/anniedotexe).
 
