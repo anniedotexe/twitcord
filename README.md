@@ -10,7 +10,7 @@ _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxj
 _[My reddit post](https://www.reddit.com/r/discordapp/comments/m6qzi5/re_if_twitter_were_owned_by_discord_but_i_made_it/?utm_source=share&utm_medium=web2x&context=3) about it._
 
 <p align="center">
-      <a href="https://www.w3schools.com/html/"> 
+    <a href="https://www.w3schools.com/html/"> 
         <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
     </a>
     <a href="https://www.w3schools.com/css/"> 
@@ -19,6 +19,7 @@ _[My reddit post](https://www.reddit.com/r/discordapp/comments/m6qzi5/re_if_twit
     <a href="https://www.w3schools.com/js/DEFAULT.asp"> 
         <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=white"/>
     </a>
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/43c5debe-7d41-4484-a5ff-9f8953fa0b72/deploy-status"/>
 </p>
 
 <p align="center">
