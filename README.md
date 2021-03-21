@@ -1,13 +1,12 @@
 # Twitcord
 
-#### A Twitter clone but if Twitter was owned by Discord
+#### A mobile UI concept of if Twitter was owned by Discord
 
 **LIVE DEMO** - [twitcord.anniew.xyz](https://twitcord.anniew.xyz/) OR [twitcord.netlify.app](https://twitcord.netlify.app)
 
-Currently streaming my progress with this project on [Twitch](https://www.twitch.tv/anniedotexe).
+Users can interact with the reactions, follow button, and tweets navigation bar. 
 
 _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxjoe1/if_twitter_were_owned_by_discord/)._
-_[My reddit post](https://www.reddit.com/r/discordapp/comments/m6qzi5/re_if_twitter_were_owned_by_discord_but_i_made_it/?utm_source=share&utm_medium=web2x&context=3) about it._
 
 <p align="center">
     <a href="https://www.w3schools.com/html/"> 
