@@ -1,10 +1,10 @@
 # Twitcord
 
-#### A mobile UI concept of if Twitter was owned by Discord
+#### An interactive mobile UI concept of if Twitter was owned by Discord
 
 **LIVE DEMO** - [twitcord.anniew.xyz](https://twitcord.anniew.xyz/) OR [twitcord.netlify.app](https://twitcord.netlify.app)
 
-Users can interact with the reactions, follow button, and tweets navigation bar. 
+Users can click on reactions, follow button, and tweets navigation bar. 
 
 _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxjoe1/if_twitter_were_owned_by_discord/)._
 
