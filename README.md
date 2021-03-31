@@ -29,7 +29,7 @@ _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxj
 
 ### Creator / Maintainer
 
-Annie Wu ([anniewu2303](https://github.com/anniewu2303))
+Annie Wu ([anniedotexe](https://github.com/anniedotexe))
 
 If you have any questions about the code, feel free to contact me anywhere below.
 
