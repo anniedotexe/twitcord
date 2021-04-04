@@ -25,6 +25,15 @@ _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxj
     <img alt="Mobile Demo Screenshot" src="./img/screenshot.png" width="400px">
 </p>
 
+### Built With
+- 💙 [HTML5](https://www.w3schools.com/html/)
+- 💜 [CSS3](https://www.w3schools.com/css/)
+- 💙 [JavaScript](https://www.w3schools.com/js/DEFAULT.asp)
+
+### Hosted On
+- 💜 [Netlify](https://www.netlify.com/)
+
+
 ---
 
 ### Creator / Maintainer
