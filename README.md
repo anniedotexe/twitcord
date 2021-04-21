@@ -18,6 +18,9 @@ _Inspired by [this reddit post](https://www.reddit.com/r/discordapp/comments/lxj
     <a href="https://www.w3schools.com/js/DEFAULT.asp"> 
         <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F0DB4F?style=flat&logo=javascript&logoColor=white"/>
     </a>
+    <a href="https://github.com/Naereen/badges/"> 
+        <img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/>
+    </a>
     <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/43c5debe-7d41-4484-a5ff-9f8953fa0b72/deploy-status"/>
 </p>
 
