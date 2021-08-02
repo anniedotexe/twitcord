@@ -16,758 +16,753 @@
 
 <body>
     <div class="page">
-        <div class="page-container">
-            <div class="profile-top-container">
-                <div class="header-photo">
-                    <img src="./img/header.jpg" alt="Header">
-                </div>
-                <div class="profile">
-                    <div class="prof-pic-and-buttons-row">
-                        <div class="prof-pic">
-                            <img src="./img/discord-icon-with-status-bordered.svg" alt="Profile Picture">
-                        </div>
-                        <div class="buttons">
-                            <div class="button follow">
-                                <a href="javascript:clickFollow('buttonFollow')" class="" id="buttonFollow">
-                                    Follow
-                                </a>
-                            </div>
-                            <div class="button message">
-                                Send Message
-                            </div>
-                            <div class="button more">
-                                <img src="./img/more.svg" alt="Three Dots">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="username">
-                        <span>Discord</span>
-                        <img src="./img/verify.svg" alt="Verified">
-                    </div>
-                    <div class="hashtagNumber">#0000</div>
-                    <div class="badges">
-                        <img src="./img/discord-badges.svg" alt="Discord Badges">
-                    </div>
-                    <div class="bio">
-                        <span>Your place to talk. Discord is a voice, video and text communication service to talk and
-                            hang out with your friends and
-                            communities.</span>
-                    </div>
-                    <div class="location-link-bday-joined">
-                        <div class="location">
-                            <img src="./img/location.svg" alt="Location">
-                            <span>San Francisco, CA</span>
-                        </div>
-                        <div class="link">
-                            <img src="./img/link.svg" alt="Link">
-                            <span><a href="https://discord.com/">discord.com</a></span>
-                        </div>
-                        <div class="bday">
-                            <img src="./img/birthday.svg" alt="Birthday">
-                            <span>May 13</span>
-                        </div>
-                        <div class="date-joined">
-                            <img src="./img/calendar.svg" alt="Date Joined">
-                            <span>Joined March 2015</span>
-                        </div>
-                    </div>
-                    <div class="following-follower">
-                        <div>
-                            <span class="follow-number">1,066</span>
-                            <span class="follow-text">Following</span>
-                        </div>
-                        <div>
-                            <span class="follow-number">2.8M</span>
-                            <span class="follow-text">Followers</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="profile-tweets-tabs">
-                    <a href="javascript:changeTab('tb1', 'Tweets');" id="tb1" class="tab-button active">Tweets</a>
-                    <a href="javascript:changeTab('tb2', 'Replies');" id="tb2" class="tab-button">Tweets & Replies</a>
-                    <a href="javascript:changeTab('tb3', 'Media');" id="tb3" class="tab-button">Media</a>
-                    <a href="javascript:changeTab('tb4', 'Likes');" id="tb4" class="tab-button">Likes</a>
-                </div>
+        <div class="profile-top-container">
+            <div class="header-photo">
+                <img src="./img/header.jpg" alt="Header">
             </div>
-            <div id="Tweets" class="tab-content">
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+            <div class="profile">
+                <div class="prof-pic-and-buttons-row">
+                    <div class="prof-pic">
+                        <img src="./img/discord-icon-with-status-bordered.svg" alt="Profile Picture">
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
+                    <div class="buttons">
+                        <div class="button follow">
+                            <a href="javascript:clickFollow('buttonFollow')" class="" id="buttonFollow">
+                                Follow
+                            </a>
                         </div>
-                        <div class="tweet-text">
-                            <p>cannot believe they're making me post again</p>
+                        <div class="button message">
+                            Send Message
                         </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply1')" class="reaction" id="reactReply1">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">1.3K</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet1')" class="reaction" id="reactRetweet1">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">1K</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike1')" class="reaction" id="reactLike1">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">50.8K</span>
-                            </a>
+                        <div class="button more">
+                            <img src="./img/more.svg" alt="Three Dots">
                         </div>
                     </div>
                 </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                <div class="username">
+                    <span>Discord</span>
+                    <img src="./img/verify.svg" alt="Verified">
+                </div>
+                <div class="hashtagNumber">#0000</div>
+                <div class="badges">
+                    <img src="./img/discord-badges.svg" alt="Discord Badges">
+                </div>
+                <div class="bio">
+                    <span>Your place to talk. Discord is a voice, video and text communication service to talk and
+                        hang out with your friends and
+                        communities.</span>
+                </div>
+                <div class="location-link-bday-joined">
+                    <div class="location">
+                        <img src="./img/location.svg" alt="Location">
+                        <span>San Francisco, CA</span>
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 15</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>did we ever figure out why they did surgery on a grape</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply2')" class="reaction" id="reactReply2">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">1.3K</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet2')" class="reaction" id="reactRetweet2">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">2.1K</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike2')" class="reaction" id="reactLike2">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">51.7K</span>
-                            </a>
-                        </div>
+                    <div class="link">
+                        <img src="./img/link.svg" alt="Link">
+                        <span><a href="https://discord.com/">discord.com</a></span>
+                    </div>
+                    <div class="bday">
+                        <img src="./img/birthday.svg" alt="Birthday">
+                        <span>May 13</span>
+                    </div>
+                    <div class="date-joined">
+                        <img src="./img/calendar.svg" alt="Date Joined">
+                        <span>Joined March 2015</span>
                     </div>
                 </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                <div class="following-follower">
+                    <div>
+                        <span class="follow-number">1,066</span>
+                        <span class="follow-text">Following</span>
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 5</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>We're supporting breast cancer research for International Womens Day! There's over a
-                                dozen Discord communities holding streams and events to support <a
-                                    href="https://twitter.com/BCRFcure">@BCRFcure</a> today through
-                                the 14th.</br></br>
-                                (ง'̀-'́)ง We're matching up to 60k in donations, so join the cause: <a
-                                    href="http://dis.gd/iwd-events">http://dis.gd/iwd-events</a>
-                            </p>
-                        </div>
-                        <div class="tweet-pic">
-                            <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply3')" class="reaction" id="reactReply3">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">166</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet3')" class="reaction" id="reactRetweet3">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">397</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike3')" class="reaction" id="reactLike3">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">3.9K</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon.svg" alt="Profile Picture">
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 3</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>who?</p>
-                        </div>
-                        <div class="quote-tweet">
-                            <div class="quote-tweet-content">
-                                <div class="quote-prof-pic-tweeter-info">
-                                    <img src="./img/discord-icon-orange.svg" alt="Profile Picture">
-                                    <span class="name">Dariath</span>
-                                    <span class="hashtag">#4200</span>
-                                    <span class="separator">•</span>
-                                    <span class="date-sent">May 29, 2015</span>
-                                </div>
-                                <div class="tweet-text">
-                                    <p>Anyone heard of this Discord - Chat for Games program? Looks interesting.</p>
-                                </div>
-                                <div class="show-thread">
-                                    <a href="#">Show this thread</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply4')" class="reaction" id="reactReply4">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">433</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet4')" class="reaction" id="reactRetweet4">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">438</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike4')" class="reaction" id="reactLike4">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">15.8K</span>
-                            </a>
-                        </div>
+                    <div>
+                        <span class="follow-number">2.8M</span>
+                        <span class="follow-text">Followers</span>
                     </div>
                 </div>
             </div>
-            <div id="Replies" class="tab-content" style="display:none;">
-                <div class="tweet reply">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon-green.svg" alt="Profile Picture">
-                        </div>
-                        <div class="replying-icon-line"></div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">icageforme</span>
-                            <span class="hashtag">#2510</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="replying-to"><a href="">@Discord#0000</a></div>
-                        <div class="tweet-text">
-                            <p>Tell Wumpus I said hi 👋</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply5')" class="reaction" id="reactReply5">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">1</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet5')" class="reaction" id="reactRetweet5">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike5')" class="reaction" id="reactLike5">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">9</span>
-                            </a>
-                        </div>
-                    </div>
+            <div class="profile-tweets-tabs">
+                <a href="javascript:changeTab('tb1', 'Tweets');" id="tb1" class="tab-button active">Tweets</a>
+                <a href="javascript:changeTab('tb2', 'Replies');" id="tb2" class="tab-button">Tweets & Replies</a>
+                <a href="javascript:changeTab('tb3', 'Media');" id="tb3" class="tab-button">Media</a>
+                <a href="javascript:changeTab('tb4', 'Likes');" id="tb4" class="tab-button">Likes</a>
+            </div>
+        </div>
+        <div id="Tweets" class="tab-content">
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon.svg" alt="Profile Picture">
                 </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>okie 👋</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply6')" class="reaction" id="reactReply6">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet6')" class="reaction" id="reactRetweet6">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike6')" class="reaction" id="reactLike6">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">24</span>
-                            </a>
-                        </div>
+                    <div class="tweet-text">
+                        <p>cannot believe they're making me post again</p>
                     </div>
-                </div>
-                <div class="tweet reply">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon-red.svg" alt="Profile Picture">
-                        </div>
-                        <div class="replying-icon-line"></div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Galeon Cmmnd</span>
-                            <span class="hashtag">#8313</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="replying-to"><a href="">@Discord#0000</a></div>
-                        <div class="tweet-text">
-                            <p>what's the meaning of existence</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply7')" class="reaction" id="reactReply7">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">3</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet7')" class="reaction" id="reactRetweet7">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">1</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike7')" class="reaction" id="reactLike7">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">744</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon.svg" alt="Profile Picture">
-                        </div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>Wumpus</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply8')" class="reaction" id="reactReply8">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">14</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet8')" class="reaction" id="reactRetweet8">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">19</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike8')" class="reaction" id="reactLike8">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">1.8K</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tweet reply">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon-pink.svg" alt="Profile Picture">
-                        </div>
-                        <div class="replying-icon-line"></div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Grayé Beaan</span>
-                            <span class="hashtag">#3160</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="replying-to"><a href="">@Discord#0000</a></div>
-                        <div class="tweet-text">
-                            <p>Do it on a post it note, you technically posted it</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply9')" class="reaction" id="reactReply9">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">1</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet9')" class="reaction" id="reactRetweet9">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike9')" class="reaction" id="reactLike9">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">37</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon.svg" alt="Profile Picture">
-                        </div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="tweet-pic">
-                            <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif"
-                                alt="Gif in the Tweet">
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply10')" class="reaction" id="reactReply10">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet10')" class="reaction" id="reactRetweet10">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike10')" class="reaction" id="reactLike10">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">67</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tweet reply">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon-blue.svg" alt="Profile Picture">
-                        </div>
-                        <div class="replying-icon-line"></div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">peppermintmocah</span>
-                            <span class="hashtag">#1547</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="replying-to"><a href="">@Discord#0000</a></div>
-                        <div class="tweet-text">
-                            <p>i love you ever since 2 year ago ive been using this platform so much &lt;3 thank you</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply11')" class="reaction" id="reactReply11">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">2</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet11')" class="reaction" id="reactRetweet11">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike11')" class="reaction" id="reactLike11">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">212</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon.svg" alt="Profile Picture">
-                        </div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>Thank you for all the love and support! It means so much to the entire team! ;w;
-                                💜</p>
-                        </div>
-                        <div class="tweet-pic">
-                            <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif"
-                                alt="Gif in the Tweet">
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply12')" class="reaction" id="reactReply12">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">3</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet12')" class="reaction" id="reactRetweet12">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike12')" class="reaction" id="reactLike12">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">368</span>
-                            </a>
-                        </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply1')" class="reaction" id="reactReply1">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">1.3K</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet1')" class="reaction" id="reactRetweet1">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">1K</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike1')" class="reaction" id="reactLike1">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">50.8K</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div id="Media" class="tab-content" style="display:none;">
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon.svg" alt="Profile Picture">
-                        </div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="replying-to"><a href="">@Grayé Beaan#3160</a></div>
-                        <div class="tweet-pic">
-                            <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif"
-                                alt="Gif in the Tweet">
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply13')" class="reaction" id="reactReply13">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet13')" class="reaction" id="reactRetweet13">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike13')" class="reaction" id="reactLike13">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">67</span>
-                            </a>
-                        </div>
-                    </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon.svg" alt="Profile Picture">
                 </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon.svg" alt="Profile Picture">
-                        </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 15</span>
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 17</span>
-                        </div>
-                        <div class="replying-to"><a href="">@peppermintmocah#1547</a></div>
-                        <div class="tweet-text">
-                            <p>Thank you for all the love and support! It means so much to the entire team! ;w; 💜</p>
-                        </div>
-                        <div class="tweet-pic">
-                            <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif">
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply14')" class="reaction" id="reactReply14">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">3</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet14')" class="reaction" id="reactRetweet14">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike14')" class="reaction" id="reactLike14">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">365</span>
-                            </a>
-                        </div>
+                    <div class="tweet-text">
+                        <p>did we ever figure out why they did surgery on a grape</p>
                     </div>
-                </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <div class="profile-pic">
-                            <img src="./img/discord-icon.svg" alt="Profile Picture">
-                        </div>
-                    </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Discord</span>
-                            <span class="hashtag">#0000</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 16</span>
-                        </div>
-                        <div class="replying-to"><a href="">@Llennoux#3110</a></div>
-                        <div class="tweet-text">
-                            <p>Wishing you a good day too 😀</p>
-                        </div>
-                        <div class="tweet-pic">
-                            <img src="https://media.giphy.com/media/PQKlfexeEpnTq/source.gif" alt="Gif in the Tweet">
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply15')" class="reaction" id="reactReply15">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">1</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet15')" class="reaction" id="reactRetweet15">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike15')" class="reaction" id="reactLike15">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">1</span>
-                            </a>
-                        </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply2')" class="reaction" id="reactReply2">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">1.3K</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet2')" class="reaction" id="reactRetweet2">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">2.1K</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike2')" class="reaction" id="reactLike2">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">51.7K</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div id="Likes" class="tab-content" style="display:none;">
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon-orange.svg" alt="Profile Picture">
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon.svg" alt="Profile Picture">
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 5</span>
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">Assassin's Creed</span>
-                            <span class="hashtag">#1113</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Mar 9</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>In celebration of International Women's Day and Women's History Month, we're excited to
-                                contribute to the Discord x BCRF fundraiser with a Livestream this Thursday!
-                            </p>
-                        </div>
-                        <div class="quote-tweet">
-                            <div class="quote-tweet-content">
-                                <div class="quote-prof-pic-tweeter-info">
-                                    <img src="./img/discord-icon.svg" alt="Profile Picture">
-                                    <span class="name">Discord</span>
-                                    <span class="hashtag">#0000</span>
-                                    <span class="separator">•</span>
-                                    <span class="date-sent">Mar 5</span>
-                                </div>
-                                <div class="tweet-text">
-                                    <p>We're supporting breast cancer research for International Womens Day! There's
-                                        over a dozen Discord communities holding streams and events to support @BCRFcure
-                                        today through the 14th.</br></br>
-                                        (ง'̀-'́)ง We're matching up to 60k in donations, so join the cause:
-                                        http://dis.gd/iwd-events
-                                    </p>
-                                </div>
-                                <div class="quoted tweet-pic">
-                                    <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
-                                </div>
+                    <div class="tweet-text">
+                        <p>We're supporting breast cancer research for International Womens Day! There's over a
+                            dozen Discord communities holding streams and events to support <a
+                                href="https://twitter.com/BCRFcure">@BCRFcure</a> today through
+                            the 14th.</br></br>
+                            (ง'̀-'́)ง We're matching up to 60k in donations, so join the cause: <a
+                                href="http://dis.gd/iwd-events">http://dis.gd/iwd-events</a>
+                        </p>
+                    </div>
+                    <div class="tweet-pic">
+                        <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply3')" class="reaction" id="reactReply3">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">166</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet3')" class="reaction" id="reactRetweet3">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">397</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike3')" class="reaction" id="reactLike3">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">3.9K</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon.svg" alt="Profile Picture">
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 3</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>who?</p>
+                    </div>
+                    <div class="quote-tweet">
+                        <div class="quote-tweet-content">
+                            <div class="quote-prof-pic-tweeter-info">
+                                <img src="./img/discord-icon-orange.svg" alt="Profile Picture">
+                                <span class="name">Dariath</span>
+                                <span class="hashtag">#4200</span>
+                                <span class="separator">•</span>
+                                <span class="date-sent">May 29, 2015</span>
+                            </div>
+                            <div class="tweet-text">
+                                <p>Anyone heard of this Discord - Chat for Games program? Looks interesting.</p>
+                            </div>
+                            <div class="show-thread">
+                                <a href="#">Show this thread</a>
                             </div>
                         </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply16')" class="reaction" id="reactReply16">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">7</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet16')" class="reaction" id="reactRetweet16">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">38</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike16')" class="reaction" id="reactLike16">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">410</span>
-                            </a>
-                        </div>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply4')" class="reaction" id="reactReply4">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">433</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet4')" class="reaction" id="reactRetweet4">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">438</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike4')" class="reaction" id="reactLike4">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">15.8K</span>
+                        </a>
                     </div>
                 </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
-                        <img src="./img/discord-icon-black.svg" alt="Profile Picture">
+            </div>
+        </div>
+        <div id="Replies" class="tab-content" style="display:none;">
+            <div class="tweet reply">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon-green.svg" alt="Profile Picture">
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">CORPSE</span>
-                            <span class="hashtag">#0001</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Feb 18</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>we appreciate animators and artists so much</p>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply17')" class="reaction" id="reactReply17">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">1.5K</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet17')" class="reaction" id="reactRetweet17">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount">7.2K</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike17')" class="reaction" id="reactLike17">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">188.7K</span>
-                            </a>
-                        </div>
+                    <div class="replying-icon-line"></div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">icageforme</span>
+                        <span class="hashtag">#2510</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="replying-to"><a href="">@Discord#0000</a></div>
+                    <div class="tweet-text">
+                        <p>Tell Wumpus I said hi 👋</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply5')" class="reaction" id="reactReply5">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">1</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet5')" class="reaction" id="reactRetweet5">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike5')" class="reaction" id="reactLike5">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">9</span>
+                        </a>
                     </div>
                 </div>
-                <div class="tweet">
-                    <div class="tweet-profile-pic">
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon.svg" alt="Profile Picture">
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>okie 👋</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply6')" class="reaction" id="reactReply6">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet6')" class="reaction" id="reactRetweet6">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike6')" class="reaction" id="reactLike6">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">24</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet reply">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon-red.svg" alt="Profile Picture">
+                    </div>
+                    <div class="replying-icon-line"></div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Galeon Cmmnd</span>
+                        <span class="hashtag">#8313</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="replying-to"><a href="">@Discord#0000</a></div>
+                    <div class="tweet-text">
+                        <p>what's the meaning of existence</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply7')" class="reaction" id="reactReply7">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">3</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet7')" class="reaction" id="reactRetweet7">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">1</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike7')" class="reaction" id="reactLike7">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">744</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>Wumpus</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply8')" class="reaction" id="reactReply8">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">14</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet8')" class="reaction" id="reactRetweet8">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">19</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike8')" class="reaction" id="reactLike8">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">1.8K</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet reply">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
                         <img src="./img/discord-icon-pink.svg" alt="Profile Picture">
                     </div>
-                    <div class="tweet-content">
-                        <div class="tweeter-info">
-                            <span class="name">fiona + tran = fiona art</span>
-                            <span class="hashtag">#4948</span>
-                            <span class="separator">•</span>
-                            <span class="date-sent">Feb 1</span>
-                        </div>
-                        <div class="tweet-text">
-                            <p>probably the best thing I've made for work to date. </p>
-                        </div>
-                        <div class="quote-tweet">
-                            <div class="quote-tweet-content">
-                                <div class="quote-prof-pic-tweeter-info">
-                                    <img src="./img/discord-icon.svg" alt="Profile Picture">
-                                    <span class="name">Discord</span>
-                                    <span class="hashtag">#0000</span>
-                                    <span class="separator">•</span>
-                                    <span class="date-sent">Feb 1</span>
-                                </div>
-                                <div class="tweet-text">
-                                    <p>pain </p>
-                                </div>
-                                <div class="quoted tweet-pic">
-                                    <img src="./img/tweet-pic-pain.jpg" alt="Picture in the Tweet">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tweet-react">
-                            <a href="javascript:clickReaction('reactReply18')" class="reaction" id="reactReply18">
-                                <img src="./img/reply.svg" alt="Reply">
-                                <span class="react-amount">6</span>
-                            </a>
-                            <a href="javascript:clickReaction('reactRetweet18')" class="reaction" id="reactRetweet18">
-                                <img src="./img/retweet.svg" alt="Retweet">
-                                <span class="react-amount"></span>
-                            </a>
-                            <a href="javascript:clickReaction('reactLike18')" class="reaction" id="reactLike18">
-                                <img src="./img/like.svg" alt="Like">
-                                <span class="react-amount">98</span>
-                            </a>
-                        </div>
+                    <div class="replying-icon-line"></div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Grayé Beaan</span>
+                        <span class="hashtag">#3160</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="replying-to"><a href="">@Discord#0000</a></div>
+                    <div class="tweet-text">
+                        <p>Do it on a post it note, you technically posted it</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply9')" class="reaction" id="reactReply9">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">1</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet9')" class="reaction" id="reactRetweet9">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike9')" class="reaction" id="reactLike9">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">37</span>
+                        </a>
                     </div>
                 </div>
             </div>
-
-
-            <footer class="nav-bar-bottom">
-                <a href="#">
-                    <img src="./img/discord-logo.svg" alt="Server">
-                </a>
-                <a href="#">
-                    <img src="./img/discord-friends.svg" alt="Friends">
-                </a>
-                <a href="#">
-                    <img src="./img/discord-search.svg" alt="Search">
-                </a>
-                <a href="#">
-                    <img src="./img/discord-mentions.svg" alt="Mentions">
-                </a>
-                <a href="#">
-                    <img src="./img/discord-icon-with-status.svg" alt="Profile">
-                </a>
-            </footer>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="tweet-pic">
+                        <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif" alt="Gif in the Tweet">
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply10')" class="reaction" id="reactReply10">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet10')" class="reaction" id="reactRetweet10">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike10')" class="reaction" id="reactLike10">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">67</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet reply">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon-blue.svg" alt="Profile Picture">
+                    </div>
+                    <div class="replying-icon-line"></div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">peppermintmocah</span>
+                        <span class="hashtag">#1547</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="replying-to"><a href="">@Discord#0000</a></div>
+                    <div class="tweet-text">
+                        <p>i love you ever since 2 year ago ive been using this platform so much &lt;3 thank you</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply11')" class="reaction" id="reactReply11">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">2</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet11')" class="reaction" id="reactRetweet11">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike11')" class="reaction" id="reactLike11">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">212</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>Thank you for all the love and support! It means so much to the entire team! ;w;
+                            💜</p>
+                    </div>
+                    <div class="tweet-pic">
+                        <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif" alt="Gif in the Tweet">
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply12')" class="reaction" id="reactReply12">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">3</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet12')" class="reaction" id="reactRetweet12">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike12')" class="reaction" id="reactLike12">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">368</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div id="Media" class="tab-content" style="display:none;">
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="replying-to"><a href="">@Grayé Beaan#3160</a></div>
+                    <div class="tweet-pic">
+                        <img src="https://media.giphy.com/media/W3a0zO282fuBpsqqyD/giphy.gif" alt="Gif in the Tweet">
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply13')" class="reaction" id="reactReply13">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet13')" class="reaction" id="reactRetweet13">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike13')" class="reaction" id="reactLike13">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">67</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 17</span>
+                    </div>
+                    <div class="replying-to"><a href="">@peppermintmocah#1547</a></div>
+                    <div class="tweet-text">
+                        <p>Thank you for all the love and support! It means so much to the entire team! ;w; 💜</p>
+                    </div>
+                    <div class="tweet-pic">
+                        <img src="https://media.giphy.com/media/M90mJvfWfd5mbUuULX/giphy.gif">
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply14')" class="reaction" id="reactReply14">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">3</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet14')" class="reaction" id="reactRetweet14">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike14')" class="reaction" id="reactLike14">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">365</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <div class="profile-pic">
+                        <img src="./img/discord-icon.svg" alt="Profile Picture">
+                    </div>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Discord</span>
+                        <span class="hashtag">#0000</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 16</span>
+                    </div>
+                    <div class="replying-to"><a href="">@Llennoux#3110</a></div>
+                    <div class="tweet-text">
+                        <p>Wishing you a good day too 😀</p>
+                    </div>
+                    <div class="tweet-pic">
+                        <img src="https://media.giphy.com/media/PQKlfexeEpnTq/source.gif" alt="Gif in the Tweet">
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply15')" class="reaction" id="reactReply15">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">1</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet15')" class="reaction" id="reactRetweet15">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike15')" class="reaction" id="reactLike15">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">1</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Likes" class="tab-content" style="display:none;">
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon-orange.svg" alt="Profile Picture">
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">Assassin's Creed</span>
+                        <span class="hashtag">#1113</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Mar 9</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>In celebration of International Women's Day and Women's History Month, we're excited to
+                            contribute to the Discord x BCRF fundraiser with a Livestream this Thursday!
+                        </p>
+                    </div>
+                    <div class="quote-tweet">
+                        <div class="quote-tweet-content">
+                            <div class="quote-prof-pic-tweeter-info">
+                                <img src="./img/discord-icon.svg" alt="Profile Picture">
+                                <span class="name">Discord</span>
+                                <span class="hashtag">#0000</span>
+                                <span class="separator">•</span>
+                                <span class="date-sent">Mar 5</span>
+                            </div>
+                            <div class="tweet-text">
+                                <p>We're supporting breast cancer research for International Womens Day! There's
+                                    over a dozen Discord communities holding streams and events to support @BCRFcure
+                                    today through the 14th.</br></br>
+                                    (ง'̀-'́)ง We're matching up to 60k in donations, so join the cause:
+                                    http://dis.gd/iwd-events
+                                </p>
+                            </div>
+                            <div class="quoted tweet-pic">
+                                <img src="./img/tweet-pic-iwd.jpg" alt="Picture in the Tweet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply16')" class="reaction" id="reactReply16">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">7</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet16')" class="reaction" id="reactRetweet16">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">38</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike16')" class="reaction" id="reactLike16">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">410</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon-black.svg" alt="Profile Picture">
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">CORPSE</span>
+                        <span class="hashtag">#0001</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Feb 18</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>we appreciate animators and artists so much</p>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply17')" class="reaction" id="reactReply17">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">1.5K</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet17')" class="reaction" id="reactRetweet17">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount">7.2K</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike17')" class="reaction" id="reactLike17">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">188.7K</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet">
+                <div class="tweet-profile-pic">
+                    <img src="./img/discord-icon-pink.svg" alt="Profile Picture">
+                </div>
+                <div class="tweet-content">
+                    <div class="tweeter-info">
+                        <span class="name">fiona + tran = fiona art</span>
+                        <span class="hashtag">#4948</span>
+                        <span class="separator">•</span>
+                        <span class="date-sent">Feb 1</span>
+                    </div>
+                    <div class="tweet-text">
+                        <p>probably the best thing I've made for work to date. </p>
+                    </div>
+                    <div class="quote-tweet">
+                        <div class="quote-tweet-content">
+                            <div class="quote-prof-pic-tweeter-info">
+                                <img src="./img/discord-icon.svg" alt="Profile Picture">
+                                <span class="name">Discord</span>
+                                <span class="hashtag">#0000</span>
+                                <span class="separator">•</span>
+                                <span class="date-sent">Feb 1</span>
+                            </div>
+                            <div class="tweet-text">
+                                <p>pain </p>
+                            </div>
+                            <div class="quoted tweet-pic">
+                                <img src="./img/tweet-pic-pain.jpg" alt="Picture in the Tweet">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tweet-react">
+                        <a href="javascript:clickReaction('reactReply18')" class="reaction" id="reactReply18">
+                            <img src="./img/reply.svg" alt="Reply">
+                            <span class="react-amount">6</span>
+                        </a>
+                        <a href="javascript:clickReaction('reactRetweet18')" class="reaction" id="reactRetweet18">
+                            <img src="./img/retweet.svg" alt="Retweet">
+                            <span class="react-amount"></span>
+                        </a>
+                        <a href="javascript:clickReaction('reactLike18')" class="reaction" id="reactLike18">
+                            <img src="./img/like.svg" alt="Like">
+                            <span class="react-amount">98</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="nav-bar-bottom">
+            <a href="#">
+                <img src="./img/discord-logo.svg" alt="Server">
+            </a>
+            <a href="#">
+                <img src="./img/discord-friends.svg" alt="Friends">
+            </a>
+            <a href="#">
+                <img src="./img/discord-search.svg" alt="Search">
+            </a>
+            <a href="#">
+                <img src="./img/discord-mentions.svg" alt="Mentions">
+            </a>
+            <a href="#">
+                <img src="./img/discord-icon-with-status.svg" alt="Profile">
+            </a>
+        </footer>
     </div>
 
     <script src="./js/main.js"></script>
